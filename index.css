@@ -1,0 +1,152 @@
+body {
+    background: url(Imagen/rain-5471475_1280.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-size: 20px;
+}
+header {
+    position: relative;
+    background-color: rgba(95, 158, 160, 0.733);
+    background-position: bottom;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px solid rgb(245, 245, 177)
+}
+.beast_breath{
+    text-decoration: none;
+    background-color:rgba(245, 245, 177, 0.836) ;
+    color: rgb(27, 96, 117);
+    border-radius: 50px;
+    font-size: medium;
+    padding: 5px 50px;
+    width: 100px;
+    border: none;
+    white-space: nowrap;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn{
+    text-decoration: none;
+    background-color:rgba(245, 245, 177, 0.836) ;
+    color: rgb(27, 96, 117);
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+    font-size: larger;
+    padding: 20px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn:hover{
+    transform: translate(-12px, -12px );
+    }
+    
+    .btn:hover:after{
+        transform: translate(6px, 6px );
+    }
+    .btn:hover::before{
+        transform: translate(12px, 12px );
+    }
+    
+    .container-sections { 
+        padding: 10px;
+    }
+ul {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+#title {
+    position: relative;
+    flex: 1;
+    text-align: center;
+    padding-left: 40px;
+}
+.logo-container {
+    width: 120px;
+    margin-left: 40px;
+    height: 110px;
+    margin-top: 2px;
+}
+.logo {
+    border-radius: 20%;
+    border-style: none;
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    font-family: serif;
+    align-items: center;
+}
+h2 {
+    background-color: rgba(185, 223, 228, 0.479);
+    border: 5px solid rgb(245, 245, 177);
+    padding-left: 5px;
+}
+h3 {
+    background-color: rgba(185, 223, 228, 0.479);
+    border: 5px solid rgb(245, 245, 177);
+}
+ol {
+    background-color: rgba(185, 223, 228, 0.479);
+    border: 5px solid rgb(245, 245, 177);
+}
+.form-breath {
+    width: 100%;
+    height: 50px;
+    max-width: 400px;
+    position: relative;
+    overflow: hidden;}
+
+.form-breath input{
+    background:  rgb(245, 245, 177) ;
+    color:  rgb(14, 58, 71);
+    border: none;
+    outline: 0px;
+    left: 15px;
+}
+
+.form-email {
+    width: 100%;
+    height: 50px;
+    max-width: 400px;
+    position: relative;
+    overflow: hidden;}
+
+.form-email input{
+    background:  rgb(245, 245, 177) ;
+    color:  rgb(14, 58, 71);
+    border: none;
+    outline: 0px;
+    left: 15px;
+}
+
+
+
+.container-alg {
+    width: 100%;
+}
+
+p {
+    background-color: rgba(185, 223, 228, 0.568);
+    border: solid 2px rgb(245, 245, 177);
+    padding: 20px;
+}
+
+img {
+    border: solid 10px rgb(23, 23, 24);
+    border-style: ridge;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#frame{
+    width: 100%;
+}
